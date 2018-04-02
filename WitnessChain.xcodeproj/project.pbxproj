@@ -15,6 +15,12 @@
 		189D153720704D280031869D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189D153520704D280031869D /* LaunchScreen.storyboard */; };
 		189D154220704D280031869D /* WitnessChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D154120704D280031869D /* WitnessChainTests.swift */; };
 		189D154D20704D280031869D /* WitnessChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D154C20704D280031869D /* WitnessChainUITests.swift */; };
+		1C4428DCF1FA55420915825A /* Pods_WitnessChainUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6B78AD1D4542A6FE4CA993 /* Pods_WitnessChainUITests.framework */; };
+		9688D37F633C1941D1B5E6FF /* Pods_WitnessChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821B702055924E25BF5BEE82 /* Pods_WitnessChain.framework */; };
+		B9213EA088BEBF3C6F91DC30 /* Pods_WitnessChainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C7908183AB17848C4576C4 /* Pods_WitnessChainTests.framework */; };
+		FCAA631C20729A0F000991B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCAA631B20729A0F000991B9 /* GoogleService-Info.plist */; };
+		FCAA631D20729A0F000991B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCAA631B20729A0F000991B9 /* GoogleService-Info.plist */; };
+		FCAA631E20729A0F000991B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCAA631B20729A0F000991B9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6B78AD1D4542A6FE4CA993 /* Pods_WitnessChainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WitnessChainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C7908183AB17848C4576C4 /* Pods_WitnessChainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WitnessChainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		189D152720704D260031869D /* WitnessChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WitnessChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189D152A20704D260031869D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189D152C20704D260031869D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		189D154820704D280031869D /* WitnessChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitnessChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189D154C20704D280031869D /* WitnessChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitnessChainUITests.swift; sourceTree = "<group>"; };
 		189D154E20704D280031869D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C78FC12085351EBCBEFF63E /* Pods-WitnessChainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WitnessChainTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WitnessChainTests/Pods-WitnessChainTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C1AB52266B065A1379AC659 /* Pods-WitnessChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WitnessChain.release.xcconfig"; path = "Pods/Target Support Files/Pods-WitnessChain/Pods-WitnessChain.release.xcconfig"; sourceTree = "<group>"; };
+		3C8BBF054BE2B40462024E9D /* Pods-WitnessChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WitnessChain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WitnessChain/Pods-WitnessChain.debug.xcconfig"; sourceTree = "<group>"; };
+		821B702055924E25BF5BEE82 /* Pods_WitnessChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WitnessChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E27E8600D493395E83DAB8 /* Pods-WitnessChainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WitnessChainTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WitnessChainTests/Pods-WitnessChainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7AF7B39D9E2D9F7D724ABC4 /* Pods-WitnessChainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WitnessChainUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WitnessChainUITests/Pods-WitnessChainUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED377D074EA2D8DF20794F5F /* Pods-WitnessChainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WitnessChainUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WitnessChainUITests/Pods-WitnessChainUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCAA631B20729A0F000991B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9688D37F633C1941D1B5E6FF /* Pods_WitnessChain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9213EA088BEBF3C6F91DC30 /* Pods_WitnessChainTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4428DCF1FA55420915825A /* Pods_WitnessChainUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				189D154020704D280031869D /* WitnessChainTests */,
 				189D154B20704D280031869D /* WitnessChainUITests */,
 				189D152820704D260031869D /* Products */,
+				DA5346C34A44E17742B36D1A /* Pods */,
+				88868DE3FAE2BA952C7E1995 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,7 @@
 			children = (
 				189D152A20704D260031869D /* AppDelegate.swift */,
 				189D152C20704D260031869D /* FirstViewController.swift */,
+				FCAA631B20729A0F000991B9 /* GoogleService-Info.plist */,
 				189D152E20704D260031869D /* SecondViewController.swift */,
 				189D153020704D260031869D /* Main.storyboard */,
 				189D153320704D280031869D /* Assets.xcassets */,
@@ -128,6 +150,29 @@
 			path = WitnessChainUITests;
 			sourceTree = "<group>";
 		};
+		88868DE3FAE2BA952C7E1995 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				821B702055924E25BF5BEE82 /* Pods_WitnessChain.framework */,
+				17C7908183AB17848C4576C4 /* Pods_WitnessChainTests.framework */,
+				0A6B78AD1D4542A6FE4CA993 /* Pods_WitnessChainUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5346C34A44E17742B36D1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C8BBF054BE2B40462024E9D /* Pods-WitnessChain.debug.xcconfig */,
+				3C1AB52266B065A1379AC659 /* Pods-WitnessChain.release.xcconfig */,
+				B2E27E8600D493395E83DAB8 /* Pods-WitnessChainTests.debug.xcconfig */,
+				2C78FC12085351EBCBEFF63E /* Pods-WitnessChainTests.release.xcconfig */,
+				ED377D074EA2D8DF20794F5F /* Pods-WitnessChainUITests.debug.xcconfig */,
+				C7AF7B39D9E2D9F7D724ABC4 /* Pods-WitnessChainUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189D155120704D280031869D /* Build configuration list for PBXNativeTarget "WitnessChain" */;
 			buildPhases = (
+				3094CB53CE27A2BD8326296E /* [CP] Check Pods Manifest.lock */,
 				189D152320704D260031869D /* Sources */,
 				189D152420704D260031869D /* Frameworks */,
 				189D152520704D260031869D /* Resources */,
+				22111840607348A274E2AB90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189D155420704D280031869D /* Build configuration list for PBXNativeTarget "WitnessChainTests" */;
 			buildPhases = (
+				D8DCCA18527162B66CAC9D0A /* [CP] Check Pods Manifest.lock */,
 				189D153920704D280031869D /* Sources */,
 				189D153A20704D280031869D /* Frameworks */,
 				189D153B20704D280031869D /* Resources */,
@@ -170,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 189D155720704D280031869D /* Build configuration list for PBXNativeTarget "WitnessChainUITests" */;
 			buildPhases = (
+				EACD3F80697CA60B15DA55C3 /* [CP] Check Pods Manifest.lock */,
 				189D154420704D280031869D /* Sources */,
 				189D154520704D280031869D /* Frameworks */,
 				189D154620704D280031869D /* Resources */,
@@ -233,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189D153720704D280031869D /* LaunchScreen.storyboard in Resources */,
+				FCAA631C20729A0F000991B9 /* GoogleService-Info.plist in Resources */,
 				189D153420704D280031869D /* Assets.xcassets in Resources */,
 				189D153220704D260031869D /* Main.storyboard in Resources */,
 			);
@@ -242,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAA631D20729A0F000991B9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +300,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAA631E20729A0F000991B9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22111840607348A274E2AB90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WitnessChain/Pods-WitnessChain-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WitnessChain/Pods-WitnessChain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3094CB53CE27A2BD8326296E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WitnessChain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DCCA18527162B66CAC9D0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WitnessChainTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACD3F80697CA60B15DA55C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WitnessChainUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		189D152320704D260031869D /* Sources */ = {
@@ -432,14 +563,12 @@
 		};
 		189D155220704D280031869D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8BBF054BE2B40462024E9D /* Pods-WitnessChain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WitnessChain/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.WitnessChain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -449,14 +578,12 @@
 		};
 		189D155320704D280031869D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C1AB52266B065A1379AC659 /* Pods-WitnessChain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WitnessChain/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.WitnessChain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -466,16 +593,13 @@
 		};
 		189D155520704D280031869D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E27E8600D493395E83DAB8 /* Pods-WitnessChainTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WitnessChainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.WitnessChainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -486,16 +610,13 @@
 		};
 		189D155620704D280031869D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C78FC12085351EBCBEFF63E /* Pods-WitnessChainTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WitnessChainTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.WitnessChainTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,15 +627,12 @@
 		};
 		189D155820704D280031869D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED377D074EA2D8DF20794F5F /* Pods-WitnessChainUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WitnessChainUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.WitnessChainUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -525,15 +643,12 @@
 		};
 		189D155920704D280031869D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7AF7B39D9E2D9F7D724ABC4 /* Pods-WitnessChainUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WitnessChainUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.harvard.WitnessChainUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

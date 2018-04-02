@@ -1,0 +1,6 @@
+framework module Pods_WitnessChainUITests {
+  umbrella header "Pods-WitnessChainUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
